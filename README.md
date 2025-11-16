@@ -1,8 +1,7 @@
 🧠 U.S. Suicide Mortality Analysis (1999–2020)
 
-This project analyzes 21 years of CDC mortality data to understand how suicide rates have changed across the United States. Using Python, SQL, and statistical analysis, this study identifies who is most at risk, which states show the fastest growth in suicide rates, and how age, sex, and geography shape long-term trends.
+This project analyzes 21 years of CDC mortality data to understand how suicide rates have changed across the United States. Using Python, SQL, and statistical analysis, this study identifies who is most at risk, which states show the fastest growth, and how age, sex, and geography shape long-term suicide trends.
 The goal is to uncover data-driven insights that can support public-health decision-making and suicide-prevention strategies.
-
 
 🔍 Key Insights
 🔥 Highest-Risk Age Groups
@@ -12,17 +11,22 @@ The goal is to uncover data-driven insights that can support public-health decis
 75–84 years → ~36.8
 
 65–74 years → ~22.8
-➡️ Older adults consistently face the highest risk.
+
+➡️ Older adults consistently face the highest suicide risk.
 
 🚨 Rising Trends in Young Adults
 
-Ages 15–24 and 25–34 show the steepest upward trend over 21 years.
+Age groups with the steepest upward trend (1999–2020):
 
-Indicates worsening mental-health outcomes in younger generations.
+15–24 years
 
-🗺️ States With the Fastest Growth
+25–34 years
 
-Based on slope analysis (1999–2020):
+➡️ Indicates worsening mental-health outcomes among younger adults.
+
+🗺️ States With the Fastest Growth (1999–2020)
+
+Based on long-term slope analysis:
 
 Texas
 
@@ -34,36 +38,54 @@ Colorado
 
 Arizona
 
-These states show the sharpest long-term increases.
+➡️ These states show the sharpest long-term increases in suicide rates.
 
 👤 Sex-Based Differences
 
-Men have 3–4× higher suicide rates than women across all years and age groups.
+Men have 3–4× higher suicide rates than women
+
+This holds true across every age group and every year
+
+➡️ Gender is one of the strongest predictors in the dataset.
 
 🧪 Tools & Technologies
 
 Python: Pandas, NumPy, Seaborn, Matplotlib
 
-SQL: SQLite for structured querying
+SQL: SQLite (structured querying)
 
-Jupyter Notebook for analysis and visualization
+Environment: Jupyter Notebook
 
-Dataset: CDC WONDER – Underlying Cause of Death (1999–2020)
+Dataset: CDC WONDER – Underlying Cause of Death, 1999–2020
 
 📊 What I Built
 
-Cleaned and standardized a large CDC dataset
+Cleaned and standardized a real CDC dataset
 
-Ran SQL queries to compare demographic groups
+Used SQL queries to compare demographic risk
 
-Performed trend analysis using regression
+Conducted trend analysis using regression
 
-Created visualizations including:
+Built visualizations including:
 
-Suicide trends by sex
+📉 Suicide trends by sex
 
-State-level trend comparisons
+🗺️ State-level trend comparisons
 
-Age group risk rankings
+📊 Age-group risk rankings
 
-Heatmap (Age Group × Year)
+🔥 Heatmap (Age Group × Year)
+
+🧩 Summary & Impact
+
+This analysis shows that:
+
+Older adults face the highest current suicide risk
+
+Young adults are experiencing the fastest rise, signaling increasing mental-health challenges
+
+Men remain significantly more vulnerable
+
+Several states should be prioritized for mental-health funding and intervention
+
+These findings support the development of targeted, data-backed prevention strategies.
