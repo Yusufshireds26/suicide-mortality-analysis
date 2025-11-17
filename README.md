@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="suicide-mortality-analysis/images/images/banner.png" width="100%" />
+  <img src="images/banner.png" width="100%" />
 </p>
-
 
 🧠 U.S. Suicide Mortality Analysis (1999–2020)
 
