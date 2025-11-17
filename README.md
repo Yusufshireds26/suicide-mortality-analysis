@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="images/banner.png" width="100%" />
+</p>
+
+
 🧠 U.S. Suicide Mortality Analysis (1999–2020)
 
 This project analyzes 21 years of CDC mortality data to understand how suicide rates have changed across the United States. Using Python, SQL, and statistical analysis, this study identifies who is most at risk, which states show the fastest growth, and how age, sex, and geography shape long-term suicide trends.
